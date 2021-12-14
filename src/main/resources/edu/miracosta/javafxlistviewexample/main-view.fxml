@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="300.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.miracosta.javafxlistviewexample.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="textLabel01" />
+   <TextField fx:id="inputTextField01" />
+    <Button onAction="#onAddItemButtonClick" text="Add Item to List" />
+   <ListView fx:id="listView01" prefHeight="200.0" prefWidth="200.0" />
+</VBox>
